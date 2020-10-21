@@ -1,0 +1,14 @@
+C:\Users\aditi\OneDrive\Desktop\csharp\patient\bin\Debug\netcoreapp2.2\patient.deps.json
+C:\Users\aditi\OneDrive\Desktop\csharp\patient\bin\Debug\netcoreapp2.2\patient.runtimeconfig.json
+C:\Users\aditi\OneDrive\Desktop\csharp\patient\bin\Debug\netcoreapp2.2\patient.runtimeconfig.dev.json
+C:\Users\aditi\OneDrive\Desktop\csharp\patient\bin\Debug\netcoreapp2.2\patient.dll
+C:\Users\aditi\OneDrive\Desktop\csharp\patient\bin\Debug\netcoreapp2.2\patient.pdb
+C:\Users\aditi\OneDrive\Desktop\csharp\patient\obj\Debug\netcoreapp2.2\patient.csprojAssemblyReference.cache
+C:\Users\aditi\OneDrive\Desktop\csharp\patient\obj\Debug\netcoreapp2.2\patient.csproj.CoreCompileInputs.cache
+C:\Users\aditi\OneDrive\Desktop\csharp\patient\obj\Debug\netcoreapp2.2\patient.RazorAssemblyInfo.cache
+C:\Users\aditi\OneDrive\Desktop\csharp\patient\obj\Debug\netcoreapp2.2\patient.RazorAssemblyInfo.cs
+C:\Users\aditi\OneDrive\Desktop\csharp\patient\obj\Debug\netcoreapp2.2\patient.AssemblyInfoInputs.cache
+C:\Users\aditi\OneDrive\Desktop\csharp\patient\obj\Debug\netcoreapp2.2\patient.AssemblyInfo.cs
+C:\Users\aditi\OneDrive\Desktop\csharp\patient\obj\Debug\netcoreapp2.2\patient.RazorTargetAssemblyInfo.cache
+C:\Users\aditi\OneDrive\Desktop\csharp\patient\obj\Debug\netcoreapp2.2\patient.dll
+C:\Users\aditi\OneDrive\Desktop\csharp\patient\obj\Debug\netcoreapp2.2\patient.pdb
