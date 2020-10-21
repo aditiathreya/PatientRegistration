@@ -19,7 +19,7 @@ namespace api2.Controllers
         {
             return Context.patients.ToList();
         }*/
-        [HttpGet("{id}")]
+       [HttpGet("{id}")]
         public ActionResult<Patient> Get(int id)
         {
            return Context.patients.FirstOrDefault(x=>x.patient_id==id);
@@ -31,7 +31,7 @@ namespace api2.Controllers
            return Context.patients.FirstOrDefault(x=>x.patient_name==name);
            
         }*/
-        
+
         [HttpPost]
         public ActionResult<Patient> Post([FromBody]Patient product)
         {
@@ -48,9 +48,7 @@ namespace api2.Controllers
             if(id==null)
             return BadRequest();
            Patient pr=Context.patients.FirstOrDefault(x=>x.patient_id==id);
-        //    pr.price=product.price;
-        //    pr.name=product.name;
-        //    pr.description=product.description;
+        
         pr.patient_name = product.patient_name;
             pr.DOB =product.DOB;
             pr.address = product.address;
@@ -66,21 +64,7 @@ namespace api2.Controllers
              return new NoContentResult();
         }
 
-       /* [HttpDelete("{id}")]
-        public ActionResult<Product> Delete(int? id)
-        {
-            if(id==null)
-            return BadRequest();
-            foreach(var i in Context.products)
-            {
-                if(i.id==id)
-                {
-                    Context.products.Remove(i);
-                }
-            }
-            Context.SaveChanges();
-             return new NoContentResult();
-        }*/
+      
 
     }
 }

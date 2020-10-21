@@ -25,7 +25,7 @@ namespace patient.Migrations
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_products", x => x.patient_id);
+                    table.PrimaryKey("PK_patients", x => x.patient_id);
                 });
         }
 
