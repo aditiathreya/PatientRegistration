@@ -5,7 +5,7 @@ using Microsoft.AspNetCore.Mvc;
 
 
 
-namespace api2.Controllers
+namespace Patient.Controllers
 {
 [Route("api/[controller]/[action]")]
     [ApiController]
