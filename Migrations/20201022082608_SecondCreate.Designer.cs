@@ -9,8 +9,8 @@ using patient.Models;
 namespace patient.Migrations
 {
     [DbContext(typeof(PatientContext))]
-    [Migration("20201021114648_FirstCreate")]
-    partial class FirstCreate
+    [Migration("20201022082608_SecondCreate")]
+    partial class SecondCreate
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {

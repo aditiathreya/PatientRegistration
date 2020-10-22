@@ -13,6 +13,7 @@ public class Patient
          public string DOB { get; set; } 
         public string address { get; set; }
         public string contact{get;set;}
+        //[Key]
         public string email{ get; set; }
         public string diagnosis_reason{ get; set; }
         public string doctor_name{ get; set; }

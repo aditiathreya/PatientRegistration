@@ -2,7 +2,7 @@
 
 namespace patient.Migrations
 {
-    public partial class FirstCreate : Migration
+    public partial class SecondCreate : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {

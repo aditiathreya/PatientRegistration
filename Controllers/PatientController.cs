@@ -3,9 +3,11 @@ using System.Linq;
 using patient.Models;
 using Microsoft.AspNetCore.Mvc;
 
+
+
 namespace api2.Controllers
 {
-[Route("api/[controller]")]
+[Route("api/[controller]/[action]")]
     [ApiController]
     public class PatientController : ControllerBase
     {
@@ -19,18 +21,31 @@ namespace api2.Controllers
         {
             return Context.patients.ToList();
         }*/
+        
        [HttpGet("{id}")]
-        public ActionResult<Patient> Get(int id)
+        public ActionResult<Patient> GetId(int id)
         {
            return Context.patients.FirstOrDefault(x=>x.patient_id==id);
            
         }
-         /*[HttpGet("{name}")]
-        public ActionResult<Patient> Get(string name)
+       
+        [HttpGet("{name}")]
+        public ActionResult<Patient> GetName(string name)
         {
            return Context.patients.FirstOrDefault(x=>x.patient_name==name);
            
-        }*/
+        }
+
+        [HttpGet("{date}")]
+        public ActionResult<IEnumerable<Patient>>GetDate(string date)
+        {
+            
+           //return Context.patients.FirstOrDefault(x=>x.appointment_date==date);
+           List<Patient>lists=Context.patients.Where(p=>p.appointment_date==date).ToList();
+           return lists;
+           //return Json(pr,JsonRequestBehaviour.AllowGet);
+           
+        }
 
         [HttpPost]
         public ActionResult<Patient> Post([FromBody]Patient product)
